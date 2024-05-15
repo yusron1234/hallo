@@ -15,6 +15,7 @@ public class Grasshopperforfactor {
         } else {
             return false;
         }
+        
     }
 
     public static void main(String[] args) {
@@ -22,6 +23,7 @@ public class Grasshopperforfactor {
         int number = 6;
         boolean isFactorBasis = isFactor(factor, number);
         System.out.println(isFactorBasis);
+        System.out.println("halo");
     }
      
     }
